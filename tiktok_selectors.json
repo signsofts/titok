@@ -1,0 +1,16 @@
+{
+    "captcha": "//div[contains(@class, \"captcha\")]",
+    "like_icon": "//button[.//span[@data-e2e=\"browse-like-icon\" or @data-e2e=\"like-icon\"]]",
+    "fav_icon": "//button[.//span[@data-e2e=\"favorites-icon\" or @data-e2e=\"undefined-icon\"]]",
+    "share_icon": "//button[.//span[@data-e2e=\"share-icon\"]]",
+    "video_share_icon": "//a[@data-e2e=\"video-share-repost\"]",
+    "repost_option": "//div[@data-e2e=\"share-repost\"]",
+    "comment_icon": "//button[.//span[@data-e2e=\"comment-icon\"]]",
+    "comment_input": "//div[@contenteditable=\"true\"]",
+    "comment_post": "//div[@data-e2e=\"comment-post\"]",
+    "comment_text_body": "//span[@data-e2e=\"comment-level-1\"] | //p[@data-e2e=\"comment-level-1\"]",
+    "close_modal": "//button[@aria-label=\"exit\"]",
+    "next_arrow": "//button[@data-e2e=\"arrow-right\"] | //button[@aria-disabled=\"false\" and .//*[local-name()=\"path\" and starts-with(@d, \"m24 27.76\")]]",
+    "next_left": "//button[@data-e2e=\"arrow-left\"]",
+    "ad_label": "//*[@data-e2e=\"ad-tag\"]"
+}
