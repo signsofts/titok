@@ -13,5 +13,5 @@
     "next_arrow": "//button[@data-e2e=\"arrow-right\"] | //button[@aria-disabled=\"false\" and .//*[local-name()=\"path\" and starts-with(@d, \"m24 27.76\")]]",
     "next_left": "//button[@data-e2e=\"arrow-left\"]",
     "ad_label": "//*[@data-e2e=\"ad-tag\"]",
-    "search_video_selector" : "//div[@data-e2e="search-card-video"] | //div[contains(@class, "DivItemContainerForSearch")]",
+    "search_video_selector" : "//div[@data-e2e=\"search-card-video\"] | //div[contains(@class, \"DivItemContainerForSearch\")]",
 }
